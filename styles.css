@@ -1,5 +1,9 @@
 body{
     color:beige;
-    background-color: rgb(121, 121, 225);
+    background-color: rgb(132, 132, 153);
     padding:50px 50px;
+
+}
+img{
+    height: 300px;
 }
