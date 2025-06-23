@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="button1" style="border-radius: 5px;color:white;background-color: red;border:none;width: 400px;">Open now!</button>
+    <p id="text"></p>
+    <script>
+        function openNow() {
+        document.getElementById("text").innerText = "hello world!";
+    }
+
+    // Get the button by ID and assign the click handler
+    document.getElementById("button1").onclick = openNow;</script>
+</body>
+</html>
